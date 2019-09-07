@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: 'AIzaSyARCGEhexqRAb2ZD593M7n6U_3-jJKzpWE',
+    authDomain: 'loginionic-f6112.firebaseapp.com',
+    databaseURL: 'https://loginionic-f6112.firebaseio.com',
+    projectId: 'loginionic-f6112',
+    storageBucket: '',
+    messagingSenderId: '135787794445',
+    appId: '1:135787794445:web:0f76a182b1bb0c0f'
+  }
 };
 
 /*
